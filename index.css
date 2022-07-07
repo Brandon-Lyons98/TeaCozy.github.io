@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.7;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: black;
+    display: flex; 
+    position: fixed; 
+    width: 100%;
+    /* for up-down alignment */
+    align-items: center;
+    /* for let-right alignment */
+    justify-content: space-between;
+}
+
+header a {
+    padding-right: 10px;
+}
+
+#logo-image {
+    height: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+.nav p {
+    list-style: none;
+    margin-right: 10px;
+    padding: 0px 15px;
+    display: inline-block;
+}
+
+.nav p a {
+    text-decoration: none;
+    color: seashell;
+}
+
+h2 {
+    font-size: 32px;  
+    padding: 10px 0;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+#mission {
+    margin: 0 auto;
+    display: flex;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    justify-content: center;
+}
+
+#mission h4 {
+    padding-bottom: 10px;
+}
+
+.text-over {
+    margin: auto;
+    background-color: black;
+    width: 100%;
+    padding: 0px 20px;
+}
+
+#tea-of-the-month {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+}
+
+#tea-of-the-month h4 {
+    padding-bottom: 10px;
+}
+
+.tea-images {
+    margin: 0 5px;
+    display: inline-block;
+}
+
+.tea-images img {
+    width: 300px;
+    height: 200px;
+}
+
+.tea-images h2 {
+    font-size: 20px;
+}
+
+#locations {
+    margin: 0 auto;
+    display: flex;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    justify-content: center;
+}
+
+#locations h2 {
+    padding: 15px;
+    color: seashell;
+}
+
+#locations h3,
+#locations h4 {
+    color: seashell;
+    text-align: center;
+    position: relative;
+    top: 15px;
+    padding: 22px 0;
+}
+
+#locations li {
+    position: relative;
+    top: 45px;
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    opacity: 1;
+    list-style: none;
+    display: inline-block;
+}
+
+footer {
+    color: seashell;
+}
+
+footer h2,
+footer h5 {
+    text-align: center;
+    color: seashell;
+}
+
+footer h2 {
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+footer h5 {
+    padding: 15px 0;
+}
+
+#copyright {
+    text-align: left;
+    padding-left: 20px;
+    padding-bottom: 40px;
+}
